@@ -37,7 +37,7 @@ export const App: React.FunctionComponent = () => {
 
 
 
-    return (<div>
+    return (<div className="container">
         <h1>Doctod - Lista de Medicos</h1>
         <DoctorForm addDoctor={addDoctor} specialties={specialties}/>
         <DoctorTable doctors={doctors} specialties={specialties}/>
